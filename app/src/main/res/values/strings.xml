@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RecyclerView App</string>
+
+    <string name="naver_client_id">gY2HATfr5abNYiagsYh2</string>
+    <string name="naver_client_secret">mExjg5Mcq9</string>
+    <string name="naver_client_name">꽃말사랑</string>
+</resources>
