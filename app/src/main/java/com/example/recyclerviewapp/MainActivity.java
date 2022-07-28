@@ -77,6 +77,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         list = new ArrayList<>();
         //Log.d("zn_check", "5");
         flowername = new ArrayList<>();
+        System.out.println("hihi");
 
         //LayoutManager 설정
         LinearLayoutManager layoutManager = new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false);
