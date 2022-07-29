@@ -96,7 +96,7 @@ public class LoginActivity extends AppCompatActivity {
                 cursor.moveToNext();
                 if(!pw.equals(cursor.getString(0))){
                     //비밀번호 오류
-                    Toast toast = Toast.makeText(LoginActivity.this, "이름과 핸드폰번호를 입력해주세요.", Toast.LENGTH_SHORT);
+                    Toast toast = Toast.makeText(LoginActivity.this, "핸드폰 번호가 올바르지 않습니다.", Toast.LENGTH_SHORT);
                     toast.show();
                 }else{
                     //로그인 성공, 인텐트 생성 및 호출
